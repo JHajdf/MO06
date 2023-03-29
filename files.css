@@ -1,0 +1,68 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+.overflow-h{
+	overflow: hidden;
+}
+.files{
+	font-family: PingFangSC-Regular, PingFang SC;
+	padding: 60px 160px;
+}
+.files li{
+	margin-bottom: 20px;
+}
+.files{
+	font-family: PingFangSC-Regular, PingFang SC;
+}
+.files p{
+	font-size: 22px;
+	font-weight: 400;
+	color: #524F60;
+	line-height: 36px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+.files h1{
+	font-size:40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.files h5{
+	font-size: 26px;
+	color: #000000;
+	line-height: 46px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.img-box{
+	text-align: left;
+}
+.img-box img{
+	max-width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+	.files{
+		padding: 20px 24px;
+	}
+}
+@media screen and (max-width: 900px){
+	.files p{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.files h5{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.files h1{
+		font-size: 24px;
+	}
+	.img-box{
+		text-align: center;
+	}
+}
